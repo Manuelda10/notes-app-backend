@@ -1,0 +1,29 @@
+{
+  "name": "notes-backend",
+  "version": "1.0.0",
+  "description": "Backend of notes app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "Backend",
+    "Notes"
+  ],
+  "author": "Manuel Vallejos",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "4.18.1",
+    "mysql2": "2.3.3",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "6.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.16"
+  }
+}
